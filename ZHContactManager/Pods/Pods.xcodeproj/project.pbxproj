@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01120B0BA5F2D63482A8B04AB63544FE /* ZHContactManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F696BEE9797F283D6343416B4FF45966 /* ZHContactManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		039D147E25BBD07AE8521A3B40FF79EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 331E45DB1681665286D4D99EB797CCD5 /* Foundation.framework */; };
+		11E9D84FC22980F512F5A05EE9AFA018 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09A91A5682BCDA2F654ED0F16F1A2116 /* MessageUI.framework */; };
+		1B586F91C9564B095CE87EE1FF545870 /* ZHContactManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E79E7C3042913EF60856419E319C193 /* ZHContactManager.m */; };
+		1E63BBF118C446C88E5FB78D272E97C2 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF8C70EB870DFE18778303718F6840CD /* AddressBook.framework */; };
+		3917257E6415F69157C30F7E5CCFFC38 /* Pods-ZHContactManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB4082E3AEBA131CB83524E940AD592 /* Pods-ZHContactManager-dummy.m */; };
+		3BDF09CCE1E343A3BB7DA369E035DF63 /* ZHContact.m in Sources */ = {isa = PBXBuildFile; fileRef = FA99E55C3FAB5055E4AABB7012565FE3 /* ZHContact.m */; };
+		43D228F92028F94DC1DD9AE1D0E6D87F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 331E45DB1681665286D4D99EB797CCD5 /* Foundation.framework */; };
+		6C6CE70C74EFE2EB86942BD069739C50 /* ZHContactManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5F89C8662D150F76B75945A14AC0CA /* ZHContactManager-dummy.m */; };
+		825994871DC4EA239D477CF5F89414CC /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F65D3D126453C6CC34215AF79447F258 /* Contacts.framework */; };
+		8F4BA1DBEB95C5910EEB8B3789A21B34 /* ContactsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0951BC8036E282B9AB09FD9A1264A3E /* ContactsUI.framework */; };
+		97A807C4A37F18C9F203F15A440138E1 /* Pods-ZHContactManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 373CF9D8BCAEF0B4CFD29D262DBB0BA6 /* Pods-ZHContactManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC7983C851AA78C93F418D99678670B1 /* ZHContactManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 40B4ECE3ABD1C03C0E7C58D11AF1A048 /* ZHContactManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E811773A4542FD41465519B688A4604D /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBE62C1961FC3DC2C5F6E4D71DC47EAB /* AddressBookUI.framework */; };
+		F3327EC516F1E2D346E2E13B5463AB5E /* ZHContact.h in Headers */ = {isa = PBXBuildFile; fileRef = B3C107AFBCD11276B3C0D0D7D2064720 /* ZHContact.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B18E6CCF13070F3D7CA4E26E603850DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18485063CE1B38E0C387E01CD103A53B;
+			remoteInfo = ZHContactManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		075787964E01D59EED1B88ECF33819C9 /* ZHContactManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZHContactManager-prefix.pch"; sourceTree = "<group>"; };
+		09A91A5682BCDA2F654ED0F16F1A2116 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/MessageUI.framework; sourceTree = DEVELOPER_DIR; };
+		271FA2B97EC34B836AC1C0F4148A3E76 /* ZHContactManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ZHContactManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2A196342103669E3E3E8DB84D5FF0955 /* Pods-ZHContactManager-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZHContactManager-acknowledgements.plist"; sourceTree = "<group>"; };
+		331E45DB1681665286D4D99EB797CCD5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		373CF9D8BCAEF0B4CFD29D262DBB0BA6 /* Pods-ZHContactManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZHContactManager-umbrella.h"; sourceTree = "<group>"; };
+		3E79E7C3042913EF60856419E319C193 /* ZHContactManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZHContactManager.m; path = Pod/Classes/ZHContactManager.m; sourceTree = "<group>"; };
+		40B4ECE3ABD1C03C0E7C58D11AF1A048 /* ZHContactManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZHContactManager.h; path = Pod/Classes/ZHContactManager.h; sourceTree = "<group>"; };
+		4CDAA67D1D7835C65A55F5D8203AC5A9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D2E4F1D726DDFE88AADE53F0F81D0FD /* Pods-ZHContactManager-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZHContactManager-acknowledgements.markdown"; sourceTree = "<group>"; };
+		64B04F141953A3DC58C49E81B30C1920 /* Pods-ZHContactManager-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZHContactManager-frameworks.sh"; sourceTree = "<group>"; };
+		726753DF3FA0BE9AA2A1E34658A1E960 /* ZHContactManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZHContactManager.xcconfig; sourceTree = "<group>"; };
+		7A4A5037799373F2EB028706348CB8BC /* ZHContactManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZHContactManager.modulemap; sourceTree = "<group>"; };
+		7E88FBCF6D1E13677EFB36BBC0EC66BF /* Pods-ZHContactManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZHContactManager.debug.xcconfig"; sourceTree = "<group>"; };
+		866722ADFD4BB1B7DF1EDAC02648C84B /* Pods_ZHContactManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZHContactManager.framework; path = "Pods-ZHContactManager.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A3E47B227394EB845414E8B065B5308 /* Pods-ZHContactManager-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZHContactManager-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B25379B721E41EFEE2ABC5F4A1C2171B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B3BC7581650DFD17EDFF912A8886C7AF /* ZHContactManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZHContactManager.framework; path = ZHContactManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3C107AFBCD11276B3C0D0D7D2064720 /* ZHContact.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZHContact.h; path = Pod/Classes/ZHContact.h; sourceTree = "<group>"; };
+		BA2B07AA345CC0BDB2E4E5E95AA99B95 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEB4082E3AEBA131CB83524E940AD592 /* Pods-ZHContactManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZHContactManager-dummy.m"; sourceTree = "<group>"; };
+		BF8C70EB870DFE18778303718F6840CD /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/AddressBook.framework; sourceTree = DEVELOPER_DIR; };
+		D02B9F9F313D409ABA7263A7CFCB54AE /* Pods-ZHContactManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZHContactManager.release.xcconfig"; sourceTree = "<group>"; };
+		D3C8D88AA6F959DDD3A0672A0D35DB61 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DC5F89C8662D150F76B75945A14AC0CA /* ZHContactManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZHContactManager-dummy.m"; sourceTree = "<group>"; };
+		E0951BC8036E282B9AB09FD9A1264A3E /* ContactsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ContactsUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/ContactsUI.framework; sourceTree = DEVELOPER_DIR; };
+		F65D3D126453C6CC34215AF79447F258 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Contacts.framework; sourceTree = DEVELOPER_DIR; };
+		F696BEE9797F283D6343416B4FF45966 /* ZHContactManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZHContactManager-umbrella.h"; sourceTree = "<group>"; };
+		FA99E55C3FAB5055E4AABB7012565FE3 /* ZHContact.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZHContact.m; path = Pod/Classes/ZHContact.m; sourceTree = "<group>"; };
+		FBE62C1961FC3DC2C5F6E4D71DC47EAB /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/AddressBookUI.framework; sourceTree = DEVELOPER_DIR; };
+		FEF9FA623B0A61A1C33E434C10B9CECE /* Pods-ZHContactManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZHContactManager.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A1D20CDD9F5E08C999ED4FA8F7A783D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				039D147E25BBD07AE8521A3B40FF79EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D4FEE7B2F2E5A8EE4B67E8EEFBA7D1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E63BBF118C446C88E5FB78D272E97C2 /* AddressBook.framework in Frameworks */,
+				E811773A4542FD41465519B688A4604D /* AddressBookUI.framework in Frameworks */,
+				825994871DC4EA239D477CF5F89414CC /* Contacts.framework in Frameworks */,
+				8F4BA1DBEB95C5910EEB8B3789A21B34 /* ContactsUI.framework in Frameworks */,
+				43D228F92028F94DC1DD9AE1D0E6D87F /* Foundation.framework in Frameworks */,
+				11E9D84FC22980F512F5A05EE9AFA018 /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F75DF6C7C5F002280EC53F48E80B587 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9075016D5D2E48833D18EC2403CBC5B9 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18CDD3C60D0F76C1A3D91F49DFD521CD /* Pods-ZHContactManager */ = {
+			isa = PBXGroup;
+			children = (
+				BA2B07AA345CC0BDB2E4E5E95AA99B95 /* Info.plist */,
+				FEF9FA623B0A61A1C33E434C10B9CECE /* Pods-ZHContactManager.modulemap */,
+				4D2E4F1D726DDFE88AADE53F0F81D0FD /* Pods-ZHContactManager-acknowledgements.markdown */,
+				2A196342103669E3E3E8DB84D5FF0955 /* Pods-ZHContactManager-acknowledgements.plist */,
+				BEB4082E3AEBA131CB83524E940AD592 /* Pods-ZHContactManager-dummy.m */,
+				64B04F141953A3DC58C49E81B30C1920 /* Pods-ZHContactManager-frameworks.sh */,
+				8A3E47B227394EB845414E8B065B5308 /* Pods-ZHContactManager-resources.sh */,
+				373CF9D8BCAEF0B4CFD29D262DBB0BA6 /* Pods-ZHContactManager-umbrella.h */,
+				7E88FBCF6D1E13677EFB36BBC0EC66BF /* Pods-ZHContactManager.debug.xcconfig */,
+				D02B9F9F313D409ABA7263A7CFCB54AE /* Pods-ZHContactManager.release.xcconfig */,
+			);
+			name = "Pods-ZHContactManager";
+			path = "Target Support Files/Pods-ZHContactManager";
+			sourceTree = "<group>";
+		};
+		4962B9C709C073DBFBEA9A6CD13021BE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6495CE1C937D209ED722ED7795EF331D /* ZHContactManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6495CE1C937D209ED722ED7795EF331D /* ZHContactManager */ = {
+			isa = PBXGroup;
+			children = (
+				B3C107AFBCD11276B3C0D0D7D2064720 /* ZHContact.h */,
+				FA99E55C3FAB5055E4AABB7012565FE3 /* ZHContact.m */,
+				40B4ECE3ABD1C03C0E7C58D11AF1A048 /* ZHContactManager.h */,
+				3E79E7C3042913EF60856419E319C193 /* ZHContactManager.m */,
+				899781EE9253D05369A5103877DE6F8E /* Pod */,
+				9E3C46F287FDB653071F718D7B5610F8 /* Support Files */,
+			);
+			name = ZHContactManager;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				4962B9C709C073DBFBEA9A6CD13021BE /* Development Pods */,
+				0F75DF6C7C5F002280EC53F48E80B587 /* Frameworks */,
+				CFA80F54BB180C32621E9B87DF5AD91D /* Products */,
+				F8795F96E08E72FC6EE9E237140782DB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		899781EE9253D05369A5103877DE6F8E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B25379B721E41EFEE2ABC5F4A1C2171B /* LICENSE */,
+				D3C8D88AA6F959DDD3A0672A0D35DB61 /* README.md */,
+				271FA2B97EC34B836AC1C0F4148A3E76 /* ZHContactManager.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9075016D5D2E48833D18EC2403CBC5B9 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BF8C70EB870DFE18778303718F6840CD /* AddressBook.framework */,
+				FBE62C1961FC3DC2C5F6E4D71DC47EAB /* AddressBookUI.framework */,
+				F65D3D126453C6CC34215AF79447F258 /* Contacts.framework */,
+				E0951BC8036E282B9AB09FD9A1264A3E /* ContactsUI.framework */,
+				331E45DB1681665286D4D99EB797CCD5 /* Foundation.framework */,
+				09A91A5682BCDA2F654ED0F16F1A2116 /* MessageUI.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9E3C46F287FDB653071F718D7B5610F8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CDAA67D1D7835C65A55F5D8203AC5A9 /* Info.plist */,
+				7A4A5037799373F2EB028706348CB8BC /* ZHContactManager.modulemap */,
+				726753DF3FA0BE9AA2A1E34658A1E960 /* ZHContactManager.xcconfig */,
+				DC5F89C8662D150F76B75945A14AC0CA /* ZHContactManager-dummy.m */,
+				075787964E01D59EED1B88ECF33819C9 /* ZHContactManager-prefix.pch */,
+				F696BEE9797F283D6343416B4FF45966 /* ZHContactManager-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "ZHContactManager/Pods/Target Support Files/ZHContactManager";
+			sourceTree = "<group>";
+		};
+		CFA80F54BB180C32621E9B87DF5AD91D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				866722ADFD4BB1B7DF1EDAC02648C84B /* Pods_ZHContactManager.framework */,
+				B3BC7581650DFD17EDFF912A8886C7AF /* ZHContactManager.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8795F96E08E72FC6EE9E237140782DB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				18CDD3C60D0F76C1A3D91F49DFD521CD /* Pods-ZHContactManager */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1D5E08E2B2A57F7763B553F3EFB797E4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3327EC516F1E2D346E2E13B5463AB5E /* ZHContact.h in Headers */,
+				01120B0BA5F2D63482A8B04AB63544FE /* ZHContactManager-umbrella.h in Headers */,
+				DC7983C851AA78C93F418D99678670B1 /* ZHContactManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E2C37F21C30F1CEB9235F091F95C4B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97A807C4A37F18C9F203F15A440138E1 /* Pods-ZHContactManager-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		18485063CE1B38E0C387E01CD103A53B /* ZHContactManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F51DE90A7F01A1C104446C25C6D3C31C /* Build configuration list for PBXNativeTarget "ZHContactManager" */;
+			buildPhases = (
+				57FD077E0283997F55F7A198949F023A /* Sources */,
+				9D4FEE7B2F2E5A8EE4B67E8EEFBA7D1B /* Frameworks */,
+				1D5E08E2B2A57F7763B553F3EFB797E4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZHContactManager;
+			productName = ZHContactManager;
+			productReference = B3BC7581650DFD17EDFF912A8886C7AF /* ZHContactManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5717E27EA80275C6BFE524DDD3553E04 /* Pods-ZHContactManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7C7A95B9DDF59F7A6D2DD490CCF2819 /* Build configuration list for PBXNativeTarget "Pods-ZHContactManager" */;
+			buildPhases = (
+				DCABE8DD651672983FEFA6A67694D045 /* Sources */,
+				5A1D20CDD9F5E08C999ED4FA8F7A783D /* Frameworks */,
+				1E2C37F21C30F1CEB9235F091F95C4B0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79955511AB032A3815A2660CA292E71A /* PBXTargetDependency */,
+			);
+			name = "Pods-ZHContactManager";
+			productName = "Pods-ZHContactManager";
+			productReference = 866722ADFD4BB1B7DF1EDAC02648C84B /* Pods_ZHContactManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CFA80F54BB180C32621E9B87DF5AD91D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5717E27EA80275C6BFE524DDD3553E04 /* Pods-ZHContactManager */,
+				18485063CE1B38E0C387E01CD103A53B /* ZHContactManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57FD077E0283997F55F7A198949F023A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BDF09CCE1E343A3BB7DA369E035DF63 /* ZHContact.m in Sources */,
+				6C6CE70C74EFE2EB86942BD069739C50 /* ZHContactManager-dummy.m in Sources */,
+				1B586F91C9564B095CE87EE1FF545870 /* ZHContactManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCABE8DD651672983FEFA6A67694D045 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3917257E6415F69157C30F7E5CCFFC38 /* Pods-ZHContactManager-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79955511AB032A3815A2660CA292E71A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZHContactManager;
+			target = 18485063CE1B38E0C387E01CD103A53B /* ZHContactManager */;
+			targetProxy = B18E6CCF13070F3D7CA4E26E603850DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5159756409493D22D133CD7F595775A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 726753DF3FA0BE9AA2A1E34658A1E960 /* ZHContactManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZHContactManager/ZHContactManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZHContactManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ZHContactManager/ZHContactManager.modulemap";
+				PRODUCT_MODULE_NAME = ZHContactManager;
+				PRODUCT_NAME = ZHContactManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A5BBEE0DB681A22DA630723778968555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 726753DF3FA0BE9AA2A1E34658A1E960 /* ZHContactManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZHContactManager/ZHContactManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZHContactManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ZHContactManager/ZHContactManager.modulemap";
+				PRODUCT_MODULE_NAME = ZHContactManager;
+				PRODUCT_NAME = ZHContactManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C30F8AF0AE4510A4FA4BD31183061FF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E88FBCF6D1E13677EFB36BBC0EC66BF /* Pods-ZHContactManager.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZHContactManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZHContactManager/Pods-ZHContactManager.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EE75C3EE918423EF9C15B43FC5454374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D02B9F9F313D409ABA7263A7CFCB54AE /* Pods-ZHContactManager.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZHContactManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZHContactManager/Pods-ZHContactManager.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7C7A95B9DDF59F7A6D2DD490CCF2819 /* Build configuration list for PBXNativeTarget "Pods-ZHContactManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C30F8AF0AE4510A4FA4BD31183061FF9 /* Debug */,
+				EE75C3EE918423EF9C15B43FC5454374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F51DE90A7F01A1C104446C25C6D3C31C /* Build configuration list for PBXNativeTarget "ZHContactManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5159756409493D22D133CD7F595775A2 /* Debug */,
+				A5BBEE0DB681A22DA630723778968555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,16 @@
+PODS:
+  - ZHContactManager (1.1.0)
+
+DEPENDENCIES:
+  - ZHContactManager (from `../`)
+
+EXTERNAL SOURCES:
+  ZHContactManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZHContactManager: 3db4bbd578472138654df5f5fc78ac1e87eb9a20
+
+PODFILE CHECKSUM: 5fb38c44cf4ead75c6599759abc84f37be48049d
+
+COCOAPODS: 1.5.3
